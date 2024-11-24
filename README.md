@@ -11,6 +11,6 @@ The resulting executable takes three arguments: the first term, the second term,
 
 It will currently will take a float up to five decimal places for the first and second terms, and an integer for the number of iterations. Precision can be altered by modifying the print statements for each item - first_value, second_value, and sum:
 ```
-std.debug.print("{d:.12}", .{sum});
+std.debug.print("{d:.12}\n", .{sum});
 ```
 will print the sum to twelve decimal places.
